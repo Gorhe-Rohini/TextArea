@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TextArea</title>
+</head>
+<body>
+    
+    <div class="textarea-container">
+        <textarea id="textArea" rows="30" placeholder="Enter text..."></textarea>
+        <div class="button-container">
+            <button class="btn" onclick="toUpperCase()" id="upper">Upper Case</button>
+            <button class="btn" onclick="toLowerCase()" id="lower">Lower Case</button>
+            <button class="btn" onclick="countCharacters()" id="count">Count <span id="charCount">0</span></button>
+            <button class="btn" onclick="removeSpaces()" id="remove">Remove Space</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
